@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Calculator
+    </title>
+      <style>
+     
+      </style>
+  </head>
+  <body>
+    <button onclick="
+      updateCalculation('1');
+      ">
+      1
+    </button>
+    <button onclick="
+     updateCalculation('2');
+    ">
+      2
+    </button>
+    <button onclick="
+     updateCalculation('3');
+    ">
+      3
+    </button>
+    <button onclick="
+    calculation+=' + ';
+    ">
+      +
+    </button>
+    <button onclick="
+    eval(calculation);
+    calculation=eval(calculation);
+    console.log(calculation);
+    ">
+      =
+    </button>
+    <script>
+      let calculation ='';
+      function updateCalculation(UpdateNum)
+      {
+        calculation+=UpdateNum;
+        console.log(calculation);
+      }
+    </script>
+  </body>
+</html>
+
+
+
+

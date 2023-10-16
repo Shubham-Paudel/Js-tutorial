@@ -1,0 +1,52 @@
+body
+{
+  background-color: rgb(15,15,15);
+  color: rgb(171, 226, 208);
+  font-family: sans-serif;
+}
+
+.title
+{
+  font-weight: bolder;
+  font-size: 30px;
+}
+.Coin
+{
+  height: 60px;
+}
+
+.reset-button
+{
+  font-family: sans-serif;
+  background-color: tomato;
+  color: black;
+  border: none;
+  border-radius: 30px;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+.move-button
+{
+  background-color: rgb(57, 5, 5);
+  border: 4px solid rgb(0, 255, 68);
+  width: 120px;
+  height: 120px;
+  border-radius: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.res
+{
+  font-size: 25px;
+  font-weight: bolder;
+  margin-top: 50px;
+}
+
+.result
+{
+  margin-top: 50px;
+  margin-bottom: 35px;
+}
